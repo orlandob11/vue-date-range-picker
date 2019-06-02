@@ -1,5 +1,5 @@
 <template>
-  <div class="d-flex daterangepicker-row">
+  <div class="d-lg-flex daterangepicker-row">
     <!-- Calendars -->
     <div class="daterangepicker-col" v-for="calendarIndex in calendarCount" :key="calendarIndex">
       <date-range-picker-calendar
